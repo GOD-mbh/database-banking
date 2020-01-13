@@ -1,0 +1,484 @@
+2020-01-10 14:53:35 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Falscher Benutzer Name oder Passwort
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Engine.openSession(Engine.java:131)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:309)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:289)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:785)
+	at org.h2.server.web.WebApp.test(WebApp.java:947)
+	at org.h2.server.web.WebApp.process(WebApp.java:238)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebThread.process(WebThread.java:139)
+	at org.h2.server.web.WebThread.run(WebThread.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Falscher Benutzer Name oder Passwort
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:461)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 21 more
+2020-01-10 14:53:37 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Falscher Benutzer Name oder Passwort
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Engine.openSession(Engine.java:131)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:309)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:289)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:785)
+	at org.h2.server.web.WebApp.login(WebApp.java:1008)
+	at org.h2.server.web.WebApp.process(WebApp.java:223)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebThread.process(WebThread.java:139)
+	at org.h2.server.web.WebThread.run(WebThread.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Falscher Benutzer Name oder Passwort
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:461)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 21 more
+2020-01-10 15:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.[*]TABLES"
+Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.[*]TABLES"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.TABLES [42000-200]
+2020-01-11 10:57:35 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Falscher Benutzer Name oder Passwort
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Engine.openSession(Engine.java:131)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:309)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:289)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:785)
+	at org.h2.server.web.WebApp.login(WebApp.java:1008)
+	at org.h2.server.web.WebApp.process(WebApp.java:223)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebThread.process(WebThread.java:139)
+	at org.h2.server.web.WebThread.run(WebThread.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Falscher Benutzer Name oder Passwort
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:461)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 21 more
+2020-01-11 10:57:49 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Falscher Benutzer Name oder Passwort
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Engine.openSession(Engine.java:131)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:309)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:289)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:785)
+	at org.h2.server.web.WebApp.login(WebApp.java:1008)
+	at org.h2.server.web.WebApp.process(WebApp.java:223)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebThread.process(WebThread.java:139)
+	at org.h2.server.web.WebThread.run(WebThread.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Falscher Benutzer Name oder Passwort
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:461)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 21 more
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "INSERT" nicht gefunden
+Table "INSERT" not found; SQL statement:
+insert into insert into insert into insert into insert into insert into insert into
+account values('A-101', 'Downtown', 500) [42102-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "ACCOUNT[*] VALUES('A-102', 'Perryridge', 400)"; erwartet "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCOUNT[*] VALUES('A-102', 'Perryridge', 400)"; expected "ALTER, ANALYZE"; SQL statement:
+account values('A-102', 'Perryridge', 400) [42001-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "ACCOUNT[*] VALUES('A-201', 'Brighton', ACCOUNT VALUES('A-215', 'Mianus',
+ACCOUNT VALUES('A-217', 'Brighton', ACCOUNT VALUES('A-222', 'Redwood', ACCOUNT VALUES('A-305', 'Round Hill', 350)"; erwartet "ALTER, ANALYZE"
+Syntax error in SQL statement "ACCOUNT[*] VALUES('A-201', 'Brighton', ACCOUNT VALUES('A-215', 'Mianus',
+ACCOUNT VALUES('A-217', 'Brighton', ACCOUNT VALUES('A-222', 'Redwood', ACCOUNT VALUES('A-305', 'Round Hill', 350)"; expected "ALTER, ANALYZE"; SQL statement:
+account values('A-201', 'Brighton', account values('A-215', 'Mianus',
+account values('A-217', 'Brighton', account values('A-222', 'Redwood', account values('A-305', 'Round Hill', 350) [42001-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "900[*])"
+Syntax error in SQL statement "900[*])"; SQL statement:
+900) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "700[*])"
+Syntax error in SQL statement "700[*])"; SQL statement:
+700) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "750[*])"
+Syntax error in SQL statement "750[*])"; SQL statement:
+750) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "700[*])"
+Syntax error in SQL statement "700[*])"; SQL statement:
+700) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "INSERT INTO BRANCH VALUES('Brighton',
+INSERT INTO[*] BRANCH VALUES('Downtown',
+INSERT INTO BRANCH VALUES('Mianus',
+INSERT INTO BRANCH VALUES('North Town', 'Rye', INSERT INTO BRANCH VALUES('Perryridge', 'Horseneck', INSERT INTO BRANCH VALUES('Pownal', 'Bennington', INSERT INTO BRANCH VALUES('Redwood', 'Palo Alto', INSERT INTO BRANCH VALUES('Round Hill', 'Horseneck',
+INSERT INTO CUSTOMER VALUES('Adams',
+INSERT INTO CUSTOMER VALUES('Brooks',
+INSERT INTO CUSTOMER VALUES('Curry',
+INSERT INTO CUSTOMER VALUES('Glenn',
+INSERT INTO CUSTOMER VALUES('Green',
+INSERT INTO CUSTOMER VALUES('Hayes',
+INSERT INTO CUSTOMER VALUES('Johnson',
+INSERT INTO CUSTOMER VALUES('Jones',
+INSERT INTO CUSTOMER VALUES('Lindsay', 'Park', INSERT INTO CUSTOMER VALUES('Smith', 'North', INSERT INTO CUSTOMER VALUES('Turner', 'Putnam', INSERT INTO CUSTOMER VALUES('Williams', 'Nassau',
+INSERT INTO DEPOSITOR VALUES('Hayes', 'A-102')"; erwartet "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO BRANCH VALUES('Brighton',
+INSERT INTO[*] BRANCH VALUES('Downtown',
+INSERT INTO BRANCH VALUES('Mianus',
+INSERT INTO BRANCH VALUES('North Town', 'Rye', INSERT INTO BRANCH VALUES('Perryridge', 'Horseneck', INSERT INTO BRANCH VALUES('Pownal', 'Bennington', INSERT INTO BRANCH VALUES('Redwood', 'Palo Alto', INSERT INTO BRANCH VALUES('Round Hill', 'Horseneck',
+INSERT INTO CUSTOMER VALUES('Adams',
+INSERT INTO CUSTOMER VALUES('Brooks',
+INSERT INTO CUSTOMER VALUES('Curry',
+INSERT INTO CUSTOMER VALUES('Glenn',
+INSERT INTO CUSTOMER VALUES('Green',
+INSERT INTO CUSTOMER VALUES('Hayes',
+INSERT INTO CUSTOMER VALUES('Johnson',
+INSERT INTO CUSTOMER VALUES('Jones',
+INSERT INTO CUSTOMER VALUES('Lindsay', 'Park', INSERT INTO CUSTOMER VALUES('Smith', 'North', INSERT INTO CUSTOMER VALUES('Turner', 'Putnam', INSERT INTO CUSTOMER VALUES('Williams', 'Nassau',
+INSERT INTO DEPOSITOR VALUES('Hayes', 'A-102')"; expected "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+insert into branch values('Brighton',
+insert into branch values('Downtown',
+insert into branch values('Mianus',
+insert into branch values('North Town', 'Rye', insert into branch values('Perryridge', 'Horseneck', insert into branch values('Pownal', 'Bennington', insert into branch values('Redwood', 'Palo Alto', insert into branch values('Round Hill', 'Horseneck',
+insert into customer values('Adams',
+insert into customer values('Brooks',
+insert into customer values('Curry',
+insert into customer values('Glenn',
+insert into customer values('Green',
+insert into customer values('Hayes',
+insert into customer values('Johnson',
+insert into customer values('Jones',
+insert into customer values('Lindsay', 'Park', insert into customer values('Smith', 'North', insert into customer values('Turner', 'Putnam', insert into customer values('Williams', 'Nassau',
+insert into depositor values('Hayes', 'A-102') [42001-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Pittsfield'[*])"
+Syntax error in SQL statement "'Pittsfield'[*])"; SQL statement:
+'Pittsfield') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Brooklyn'[*])"
+Syntax error in SQL statement "'Brooklyn'[*])"; SQL statement:
+'Brooklyn') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Rye'[*])"
+Syntax error in SQL statement "'Rye'[*])"; SQL statement:
+'Rye') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "INSERT INTO LOAN VALUES('L-11', 'Round Hill', INSERT INTO[*] LOAN VALUES('L-14', 'Downtown', INSERT INTO LOAN VALUES('L-15', 'Perryridge', INSERT INTO LOAN VALUES('L-16', 'Perryridge', INSERT INTO LOAN VALUES('L-17', 'Downtown', INSERT INTO LOAN VALUES('L-23', 'Redwood', INSERT INTO LOAN VALUES('l-93', 'Mianus',
+INSERT INTO BORROWER VALUES('Adams', INSERT INTO BORROWER VALUES('Curry', INSERT INTO BORROWER VALUES('Hayes', INSERT INTO BORROWER VALUES('Jackson',
+900)"; erwartet "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO LOAN VALUES('L-11', 'Round Hill', INSERT INTO[*] LOAN VALUES('L-14', 'Downtown', INSERT INTO LOAN VALUES('L-15', 'Perryridge', INSERT INTO LOAN VALUES('L-16', 'Perryridge', INSERT INTO LOAN VALUES('L-17', 'Downtown', INSERT INTO LOAN VALUES('L-23', 'Redwood', INSERT INTO LOAN VALUES('l-93', 'Mianus',
+INSERT INTO BORROWER VALUES('Adams', INSERT INTO BORROWER VALUES('Curry', INSERT INTO BORROWER VALUES('Hayes', INSERT INTO BORROWER VALUES('Jackson',
+900)"; expected "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+insert into loan values('L-11', 'Round Hill', insert into loan values('L-14', 'Downtown', insert into loan values('L-15', 'Perryridge', insert into loan values('L-16', 'Perryridge', insert into loan values('L-17', 'Downtown', insert into loan values('L-23', 'Redwood', insert into loan values('l-93', 'Mianus',
+insert into borrower values('Adams', insert into borrower values('Curry', insert into borrower values('Hayes', insert into borrower values('Jackson',
+900) [42001-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "1500[*])"
+Syntax error in SQL statement "1500[*])"; SQL statement:
+1500) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "1500[*] )"
+Syntax error in SQL statement "1500[*] )"; SQL statement:
+1500 ) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "1300[*] )"
+Syntax error in SQL statement "1300[*] )"; SQL statement:
+1300 ) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "1000[*])"
+Syntax error in SQL statement "1000[*])"; SQL statement:
+1000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "2000[*])"
+Syntax error in SQL statement "2000[*])"; SQL statement:
+2000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "500[*])"
+Syntax error in SQL statement "500[*])"; SQL statement:
+500) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'L-16'[*])"
+Syntax error in SQL statement "'L-16'[*])"; SQL statement:
+'L-16') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'L-93'[*])"
+Syntax error in SQL statement "'L-93'[*])"; SQL statement:
+'L-93') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'L-15'[*])"
+Syntax error in SQL statement "'L-15'[*])"; SQL statement:
+'L-15') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'L-14'[*])"
+Syntax error in SQL statement "'L-14'[*])"; SQL statement:
+'L-14') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Brooklyn'[*], 'Brooklyn',
+7100000)"
+Syntax error in SQL statement "'Brooklyn'[*], 'Brooklyn',
+7100000)"; SQL statement:
+'Brooklyn', 'Brooklyn',
+7100000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "9000000[*])"
+Syntax error in SQL statement "9000000[*])"; SQL statement:
+9000000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "400000[*])"
+Syntax error in SQL statement "400000[*])"; SQL statement:
+400000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "3700000[*])"
+Syntax error in SQL statement "3700000[*])"; SQL statement:
+3700000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "1700000[*])"
+Syntax error in SQL statement "1700000[*])"; SQL statement:
+1700000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "300000[*])"
+Syntax error in SQL statement "300000[*])"; SQL statement:
+300000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "2100000[*])"
+Syntax error in SQL statement "2100000[*])"; SQL statement:
+2100000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "8000000[*])"
+Syntax error in SQL statement "8000000[*])"; SQL statement:
+8000000) [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Horseneck'[*],
+'Spring', 'Senator',
+'North',
+'Sand Hill', 'Woodside')"
+Syntax error in SQL statement "'Horseneck'[*],
+'Spring', 'Senator',
+'North',
+'Sand Hill', 'Woodside')"; SQL statement:
+'Horseneck',
+'Spring', 'Senator',
+'North',
+'Sand Hill', 'Woodside') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Walnut'[*], 'Main',
+'Stamford')"
+Syntax error in SQL statement "'Walnut'[*], 'Main',
+'Stamford')"; SQL statement:
+'Walnut', 'Main',
+'Stamford') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Harrison'[*])"
+Syntax error in SQL statement "'Harrison'[*])"; SQL statement:
+'Harrison') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Palo Alto'[*])"
+Syntax error in SQL statement "'Palo Alto'[*])"; SQL statement:
+'Palo Alto') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Harrison'[*])"
+Syntax error in SQL statement "'Harrison'[*])"; SQL statement:
+'Harrison') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Pittsfield'[*])"
+Syntax error in SQL statement "'Pittsfield'[*])"; SQL statement:
+'Pittsfield') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Rye'[*])"
+Syntax error in SQL statement "'Rye'[*])"; SQL statement:
+'Rye') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Stamford'[*])"
+Syntax error in SQL statement "'Stamford'[*])"; SQL statement:
+'Stamford') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Princeton'[*])"
+Syntax error in SQL statement "'Princeton'[*])"; SQL statement:
+'Princeton') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "'Alma'[*], 'Main',
+
+INSERT INTO BORROWER VALUES('Jones',
+INSERT INTO BORROWER VALUES('Smith',
+INSERT INTO BORROWER VALUES('Smith',
+INSERT INTO BORROWER VALUES('Williams', 'L-17')"
+Syntax error in SQL statement "'Alma'[*], 'Main',
+
+INSERT INTO BORROWER VALUES('Jones',
+INSERT INTO BORROWER VALUES('Smith',
+INSERT INTO BORROWER VALUES('Smith',
+INSERT INTO BORROWER VALUES('Williams', 'L-17')"; SQL statement:
+'Alma', 'Main',
+
+insert into borrower values('Jones',
+insert into borrower values('Smith',
+insert into borrower values('Smith',
+insert into borrower values('Williams', 'L-17') [42000-200]
+2020-01-11 11:27:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "INSERT INTO EMPLOYEE VALUES('Adams',
+INSERT INTO[*] EMPLOYEE VALUES('Brown',
+INSERT INTO EMPLOYEE VALUES('Gopal',
+INSERT INTO EMPLOYEE VALUES('Johnson',
+INSERT INTO EMPLOYEE VALUES('Loreena',
+INSERT INTO EMPLOYEE VALUES('Peterson', 'Downtown', INSERT INTO EMPLOYEE VALUES('Rao', 'Austin', 1500)"; erwartet "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO EMPLOYEE VALUES('Adams',
+INSERT INTO[*] EMPLOYEE VALUES('Brown',
+INSERT INTO EMPLOYEE VALUES('Gopal',
+INSERT INTO EMPLOYEE VALUES('Johnson',
+INSERT INTO EMPLOYEE VALUES('Loreena',
+INSERT INTO EMPLOYEE VALUES('Peterson', 'Downtown', INSERT INTO EMPLOYEE VALUES('Rao', 'Austin', 1500)"; expected "(, ., [, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+insert into employee values('Adams',
+insert into employee values('Brown',
+insert into employee values('Gopal',
+insert into employee values('Johnson',
+insert into employee values('Loreena',
+insert into employee values('Peterson', 'Downtown', insert into employee values('Rao', 'Austin', 1500) [42001-200]
+2020-01-13 06:34:55 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Anzahl der Felder stimmt nicht überein
+Column count does not match; SQL statement:
+insert into customer values('Johnson','Alma''Palo Alto') [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1459)
+	at org.h2.server.web.WebApp.query(WebApp.java:1116)
+	at org.h2.server.web.WebApp$1.next(WebApp.java:1078)
+	at org.h2.server.web.WebApp$1.next(WebApp.java:1065)
+	at org.h2.server.web.WebThread.process(WebThread.java:178)
+	at org.h2.server.web.WebThread.run(WebThread.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-13 06:34:55 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Anzahl der Felder stimmt nicht überein
+Column count does not match; SQL statement:
+insert into customer values('Jones','Main''Harrison') [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1459)
+	at org.h2.server.web.WebApp.query(WebApp.java:1116)
+	at org.h2.server.web.WebApp$1.next(WebApp.java:1078)
+	at org.h2.server.web.WebApp$1.next(WebApp.java:1065)
+	at org.h2.server.web.WebThread.process(WebThread.java:178)
+	at org.h2.server.web.WebThread.run(WebThread.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-13 06:39:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "DROP TABLE ACCOUNT IF EXISTS ACCOUNT[*]"
+Syntax error in SQL statement "DROP TABLE ACCOUNT IF EXISTS ACCOUNT[*]"; SQL statement:
+drop table account if exists account [42000-200]
+2020-01-13 06:39:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "DROP TABLE BORROWER IF EXISTS BORROWER[*]"
+Syntax error in SQL statement "DROP TABLE BORROWER IF EXISTS BORROWER[*]"; SQL statement:
+drop table borrower if exists borrower [42000-200]
+2020-01-13 06:39:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "DROP TABLE BRANCH IF EXISTS BRANCH[*]"
+Syntax error in SQL statement "DROP TABLE BRANCH IF EXISTS BRANCH[*]"; SQL statement:
+drop table branch if exists branch [42000-200]
+2020-01-13 06:39:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "DROP TABLE CUSTOMER IF EXISTS CUSTOMER[*]"
+Syntax error in SQL statement "DROP TABLE CUSTOMER IF EXISTS CUSTOMER[*]"; SQL statement:
+drop table customer if exists customer [42000-200]
+2020-01-13 06:39:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "DROP TABLE DEPOSITOR IF EXISTS DEPOSITOR[*]"
+Syntax error in SQL statement "DROP TABLE DEPOSITOR IF EXISTS DEPOSITOR[*]"; SQL statement:
+drop table depositor if exists depositor [42000-200]
+2020-01-13 06:39:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "DROP TABLE EMPLOYEE IF EXISTS EMPLOYEE[*]"
+Syntax error in SQL statement "DROP TABLE EMPLOYEE IF EXISTS EMPLOYEE[*]"; SQL statement:
+drop table employee if exists employee [42000-200]
+2020-01-13 06:39:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "DROP TABLE LOAN IF EXISTS LOAN[*]"
+Syntax error in SQL statement "DROP TABLE LOAN IF EXISTS LOAN[*]"; SQL statement:
+drop table loan if exists loan [42000-200]
+2020-01-13 06:52:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "ACCOUNT" nicht gefunden
+Table "ACCOUNT" not found; SQL statement:
+drop table account [42102-200]
+2020-01-13 06:53:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "ACCOUNT" nicht gefunden
+Table "ACCOUNT" not found; SQL statement:
+drop table account [42102-200]
+2020-01-13 06:53:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "BORROWER" nicht gefunden
+Table "BORROWER" not found; SQL statement:
+drop table borrower [42102-200]
+2020-01-13 06:53:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "BRANCH" nicht gefunden
+Table "BRANCH" not found; SQL statement:
+drop table branch [42102-200]
+2020-01-13 06:53:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "CUSTOMER" nicht gefunden
+Table "CUSTOMER" not found; SQL statement:
+drop table customer [42102-200]
+2020-01-13 06:53:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "DEPOSITOR" nicht gefunden
+Table "DEPOSITOR" not found; SQL statement:
+drop table depositor [42102-200]
+2020-01-13 06:53:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "EMPLOYEE" nicht gefunden
+Table "EMPLOYEE" not found; SQL statement:
+drop table employee [42102-200]
+2020-01-13 06:53:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "LOAN" nicht gefunden
+Table "LOAN" not found; SQL statement:
+drop table loan [42102-200]
